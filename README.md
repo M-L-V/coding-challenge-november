@@ -61,9 +61,11 @@ This has caused a significant challenge as my previous functions for fetching ap
 Feedback given when the challenge was first submitted in June 2023 is detailed below, as well as what I did to resolve it in November.
 
 - Code should be split into functions
+
 This has been done, although the functions do not return the required data.
 
 - Better error handling
+
 The main issue was how to handle urls that didn't return the expected webpage (e.g the url that returns a 401 response). I started looking into the requests property opf the web driver which retrieves the requests made between the browser and server, and would have worked on how to handle various responses to these, but ran out of time. Going forwards, I would learn how to effectively use this for error handling.
 
 - Firefox and other browsers should have been included
