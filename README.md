@@ -41,7 +41,7 @@ You will also need to install BeautifulSoup4 via
 This project was an interesting challenge as I had not done Python before, but I felt it was the best language to do it in given the amount of documentation and StackOverflow queries covering webscraping in Python. I also had limited time due to doing this around my usual work. If given more time, I would do the following:
 
 - Set up testing and more detailed error handling
-- Better fetching of the elements - fetching by classname is unreliable as classnames can change, so I would spend more time looking into how to account for this (**Update November** This became evident as my scraping of the bathroom and bedroom content no longer worked as the markup had changed)
+- Better fetching of the elements - fetching by classname is unreliable as classnames can change, so I would spend more time looking into how to account for this (**Update November: This became evident as my scraping of the bathroom and bedroom content no longer worked as the markup had changed**)
 - Turn this into a fullstack application - probably converting Python responses to JSON and creating an API a frontend application could consume
 - Converting this into an OOP piece of code and utilising classes rather than just a list of functions
 - Better git and version control - I just worked on the main branch and was not particularly detailed in commit messsages
