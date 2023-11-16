@@ -1,6 +1,7 @@
 # coding-challenge (and update November 2023 - see below)
 
 **The project**
+
 This was a practice of a coding challenge requiring you to scrape information from 3 provided Aibnb urls. The information required was 
 
 - Property name
