@@ -66,11 +66,13 @@ This has been done, although the functions do not return the required data.
 
 - Better error handling
 
-The main issue was how to handle urls that didn't return the expected webpage (e.g the url that returns a 401 response). I started looking into the requests property opf the web driver which retrieves the requests made between the browser and server, and would have worked on how to handle various responses to these, but ran out of time. Going forwards, I would learn how to effectively use this for error handling.
+The main issue was how to handle urls that didn't return the expected webpage (e.g the url that returns a 401 response). I started looking into the requests property of the web driver which retrieves the requests made between the browser and server, and would have worked on how to handle various responses to these, but ran out of time. Going forwards, I would learn how to effectively use this for error handling in terms of unwanted responses from the server.
+
+I would also utilise better error handling regarding elements not being found and the type of Exception returned.
 
 - Firefox and other browsers should have been included
 
-I didn't have time to put this functionality into practice but am aware that Selenium webdriver offers Firefox and other browser functionality (```https://www.selenium.dev/documentation/webdriver/browsers/firefox/``) Going forwards, I would include this functionality.
+I didn't have time to put this functionality into practice but am aware that Selenium webdriver offers Firefox and other browser functionality (```https://www.selenium.dev/documentation/webdriver/browsers/firefox/```) Going forwards, I would include this functionality. Playwright also offers a variety of browsers to automate tests with, so I would consider this as an alternative to Selenium.
 
 - Stateless functions should be utilised where possible
 
